@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+}
+
+.App {
+    height: 100vh;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.App.dark {
+    background-color: #1e1e1e;
+    color: beige;
+    transition: 0.3s;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 4px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #f1f1f1;
+}
+
+.input {
+    padding: 5px 10px;
+    margin: 4px;
+    outline: 0;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #111;
+}
+
+.dark .input {
+    color: white;
+    background-color: #4b4b4b;
+}
+
+.dark .btn {
+    color: white;
+    background-color: #2e2e2e;
+}
